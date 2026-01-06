@@ -16,6 +16,9 @@ It demonstrates core POS functionalities and provides a simple interface for man
 ---
 
 ## Screenshots
+**welcome**
+![wel Page](screenshots/welcome.png)
+
 
 **Login Page**  
 ![Login Page](screenshots/login.png)
