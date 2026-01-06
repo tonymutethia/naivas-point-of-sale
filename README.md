@@ -1,22 +1,47 @@
-# Naivas Point of Sale (POS) System
+# Naivas Point of Sale
 
-A student project simulating a Point of Sale system for Naivas Supermarkets. This system manages sales, inventory, and generates basic reports.
+This is a **student project**: a Point of Sale (POS) system designed for Naivas supermarket operations.  
+It demonstrates core POS functionalities and provides a simple interface for managing products, sales, and reports.
+
+---
 
 ## Features
-- Manage sales transactions
-- Track and update inventory
-- Generate receipts for sales
-- View daily sales reports
-- User-friendly interface
 
-## Technologies
+- **User Authentication:** Secure login for users.
+- **Product Management:** Add, edit, and delete products.
+- **Sales Tracking:** Record and view sales transactions.
+- **Reports:** Generate sales summaries for analysis.
+- **User-Friendly Interface:** Easy navigation and interaction.
+
+---
+
+## Screenshots
+
+**Login Page**  
+![Login Page](screenshots/login.png)
+
+**Dashboard**  
+![Dashboard](screenshots/dash.png)
+
+**Sales Page**  
+![Sales Page](screenshots/sales.png)
+
+**Reports**  
+![Reports](screenshots/invetory.png)
+
+---
+
+## Technologies Used
+
 - PHP
 - MySQL
 - HTML, CSS, Bootstrap
-- XAMPP for local development
+- JavaScript
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/naivas-point-of-sale.git
-                                    
+---
+
+## How to Run Locally
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/tonymutethia/naivas-point-of-sale.git
