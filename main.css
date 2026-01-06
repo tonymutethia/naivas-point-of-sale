@@ -1,0 +1,77 @@
+/* Purple Navbar */
+.navbar-purple {
+  background-color: #6042c1;
+  color: white;
+}
+.navbar-purple .navbar-brand,
+.navbar-purple .nav-link {
+  color: white;
+}
+.navbar-purple .nav-link:hover {
+  color: #e2e6ea;
+}
+.navbar-purple .dropdown-menu {
+  background-color: #6f42c1;
+}
+.navbar-purple .dropdown-item {
+  color: white;
+}
+.navbar-purple .dropdown-item:hover {
+  background-color: #5a32a3;
+}
+
+/* Sidebar */
+.sidebar {
+  min-height: 100vh;
+  border-right: 1px solid #dee2e6;
+}
+.sidebar h5 {
+  font-weight: bold;
+  color: #6f42c1;
+}
+.sidebar .list-group-item {
+  border: none;
+  padding: 0.5rem 0;
+}
+.sidebar .list-group-item a {
+  color: #6f42c1;
+  text-decoration: none;
+}
+.sidebar .list-group-item a:hover {
+  color: #5a32a3;
+  text-decoration: underline;
+}
+
+/* Smaller Carousel */
+.carousel-inner img {
+  max-height: 300px;
+  object-fit: cover;
+}
+.carousel-caption {
+  bottom: 1rem;
+  padding: 0.5rem;
+}
+.carousel-caption h5 {
+  font-size: 1.25rem;
+}
+.carousel-caption p {
+  font-size: 0.9rem;
+}
+
+/* Product Cards */
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+

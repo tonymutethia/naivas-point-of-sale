@@ -1,0 +1,100 @@
+/* Dark Mode Theme */
+body.bg-dark {
+    background-color: #1a1a1a;
+    color: #e2e6ea;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #2c1a4d; /* Dark purple */
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+.sidebar h4 {
+    color: #ffffff;
+    font-weight: bold;
+}
+.sidebar .nav-link {
+    color: #e2e6ea;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: #6f42c1; /* Purple accent */
+    color: #ffffff;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        min-height: auto;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+/* Cards */
+.card.bg-dark-purple {
+    background-color: #2c1a4d;
+    border: none;
+}
+.card.bg-dark-purple .card-title {
+    color: #ffffff;
+}
+.card.bg-dark-purple .card-text {
+    color: #e2e6ea;
+}
+
+/* Tables */
+.table-dark {
+    background-color: #2c1a4d;
+}
+.table-dark th,
+.table-dark td {
+    border-color: #6f42c1;
+}
+.table-dark .btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+.table-dark .btn-primary:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+}
+
+/* Buttons */
+.btn-outline-light {
+    border-color: #e2e6ea;
+    color: #e2e6ea;
+}
+.btn-outline-light:hover {
+    background-color: #6f42c1;
+    color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .display-6 {
+        font-size: 1.5rem;
+    }
+    .main-content {
+        padding: 10px;
+    }
+}
+
+
+
+
